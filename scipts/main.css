@@ -1,0 +1,164 @@
+body {
+	font-family: 'open-sans';
+	color: #000;
+	overflow-x: hidden;
+	
+}
+
+p {
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+		color: #e80918;
+
+}
+
+a:hover{
+		color: #e80918;
+}
+
+ul{
+	padding: 0;
+}
+
+hr{
+	width: 100%;
+	height: 1px;
+	background-color: #d9dcdf;
+	border: none;
+	margin: 38px 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+
+/*header*/
+
+header {
+	padding: 30px 0 0 0;
+}
+
+.logo {
+	max-width: 9em;
+	
+}
+
+#menu-toggle{
+	position: absolute;
+	top: 30%;
+	left: 70%;
+}
+
+#menu-toggle img{
+	width: 2em;
+}
+
+/*search bar*/
+
+input {
+	border: 1px solid #d9dcdf;
+	color: #66747f;
+	font-size: 12px;
+	padding: 17px 25px;
+	width: 100%;
+	background: url(/images/search.png);
+	background-size: 5%;
+	outline: none;
+	background-repeat: no-repeat;
+	background-position: center right 2%;
+}
+
+/*button*/
+
+.button {
+	background-color: #e21725;
+	color: #fff;
+	padding: 17px 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	border-radius: 999px;
+	float: left;
+	border: 2px solid #e21725;
+	
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #e21725;
+	border: 2px solid #e21725;
+	text-decoration: none;
+	
+}
+
+/*notification*/
+
+.notifications {
+	float: right;
+	margin-left: 98px;
+	padding-bottom: 18px; 
+}
+
+.notifications li:hover {
+	cursor: pointer;
+}
+
+.notifications i {
+	color:#bbc3ca ;
+	font-size: 20px;
+}
+
+.notifications span{
+	border-radius: 50px;
+	background-color: #e21725;
+	color: #fff;
+	font-size: 11px;
+	position: relative;
+	top: -12px;
+	left: -12px;
+	font-weight: 700;
+	padding: 4px 9px;
+}
+
+#user-info li {
+	display: inline-block
+}
+
+#user-info li:nth-child(3) {
+	float: right;
+}
+
+#user-info li:nth-child(3) img {
+	float: left;
+	margin-right: 20px;
+	width: 60px;
+}
+
+#user-info li:nth-child(3) div{
+	display: inline-block;
+}
+
+#user-info li:nth-child(3) p{
+	margin: 0;
+}
+
+#user-info li:nth-child(3) a{
+	font-weight: 700;
+}
+
+#user-info li:nth-child(3) a:hover{
+	text-decoration: none;
+}
+
+username{
+	color: #000;
+	font-weight: 700;
+}
